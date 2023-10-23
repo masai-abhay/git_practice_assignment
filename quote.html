@@ -1,0 +1,23 @@
+
+<!--On clicking on button, display the quote given in p tag in console-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="change()">Show Quote in console</button>
+  <p id="quote">Talk is cheap Show me the code</p>
+</body>
+</html>
+<script>
+   
+function change()
+{
+ 
+  console.log(document.getElementById("quote").innerHTML)
+}
+
+</script>
